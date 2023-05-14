@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+header {
+    background-color:rgb(97, 96, 96);
+    padding-top: 16px 0;
+    color:  rgb(251, 248, 248); 
+}
+
+
+header .container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+header h1 {
+    margin-left: 16px;
+    padding: 10px 0;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    
+}
+
+header nav li a {
+    color:  rgb(251, 248, 248) ;
+    text-decoration: none;
+    
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    display: flex;
+    justify-content:space-between;
+}
+
+section h2 {
+    margin-top: 40px;
+    border-bottom: 1.5px solid rgb(97, 96, 96);
+}
+
+section h2, p {
+    margin-bottom: 20px ;
+    margin-left: 16px;
+
+}
+
+.main-img {
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 16px 0;
+}
+
+
+.img {
+    height: 180px;
+    width: 250px;
+    margin-top: 10px;
+    padding: 16px 0;
+}
+
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+.itens article {
+    width: calc(24% 24% 24% 24%); 
+    margin: 5px;
+    margin-bottom: 16px;
+    color: rgb(97, 96, 96);
+}
+
+
+.itens article h3, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    justify-content: center}
+
+.itens article a {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(97, 96, 96);
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 250px;
+    text-align:center;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px){
+    header .container {
+    display: block;    
+}
+
+.container {
+    max-width: 90%;
+    padding-right: 0%;
+}
+
+section .container {
+    display: block;
+    justify-content:space-between;
+}
+
+section h2 {
+    margin-top: 40px;
+    border-bottom: 1.5px solid rgb(97, 96, 96);
+}
+
+section h2, p {
+    margin-bottom: 20px ;
+    margin-left: 16px;
+
+}
+
+.main-img {
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 16px 0;
+}
+
+.itens {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+.itens article {
+    width: calc(24% 24% 24% 24%); 
+    margin: 5px;
+    margin-bottom: 16px;
+    color: rgb(97, 96, 96);
+}
+
+
+.itens article h3, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+
+}
+
+
+.itens article a {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(97, 96, 96);
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+    width: 250px;
+    text-align:center;
+    line-height: 25px;
+}
+
+header .container {
+    flex-direction: column;
+}
+
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1023px) {
+
+    .container{
+        max-width: 90%;
+    }
+
+    .container p {
+        font-size: 1.5em;
+    }
+
+    .itens {
+        grid-template-columns: repeat(2, 49%);
+    }
+
+}
+    
+
+
+
+
+
+
