@@ -128,7 +128,8 @@ header .container {
 
 section .container {
     display: block;
-    justify-content:space-between;
+    justify-content:center;
+    align-items: center;
 }
 
 section .produtos {
@@ -209,6 +210,12 @@ header .container {
 
 .container p {
     font-size: 1.5em;
+}
+
+section .container {
+    display: block;
+    justify-content:center;
+    align-items: center;
 }
 
 .itens {
