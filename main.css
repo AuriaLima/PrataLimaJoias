@@ -133,8 +133,8 @@ section .container {
 }
 
 .main-img {
-    height: 180px;
-    width: 250px;
+    height: 200px;
+    width: 270px;
     margin-top: 10px;
     padding: 16px 0;
 }
@@ -147,7 +147,7 @@ section .produtos {
 
 section h2 {
     margin-top: 40px;
-    border-bottom: 1.5px solid rgb(97, 96, 96);
+    
 }
 
 section h2, p {
@@ -212,6 +212,11 @@ header .container {
     font-size: 1.5em;
 }
 
+section h2 {
+    margin-top: 40px;
+    
+}
+
 section .container {
     display: block;
     justify-content:center;
@@ -219,8 +224,8 @@ section .container {
 }
 
 .main-img {
-    height: 180px;
-    width: 250px;
+    height: 200px;
+    width: 270px;
     margin-top: 10px;
     padding: 16px 0;
 }
