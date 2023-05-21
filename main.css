@@ -132,6 +132,13 @@ section .container {
     align-items: center;
 }
 
+.main-img {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 16px 0;
+}
+
 section .produtos {
     display: flex;
     justify-content: center;
@@ -147,13 +154,6 @@ section h2, p {
     margin-bottom: 20px ;
     margin-left: 16px;
 
-}
-
-.main-img {
-    height: 300px;
-    width: 400px;
-    margin-top: 20px;
-    padding: 16px 0;
 }
 
 .itens {
@@ -216,6 +216,13 @@ section .container {
     display: block;
     justify-content:center;
     align-items: center;
+}
+
+.main-img {
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    padding: 16px 0;
 }
 
 .itens {
