@@ -116,7 +116,8 @@ section h2, p {
 }
 
 @media screen and (max-width: 767px){
-    header .container {
+
+header .container {
     display: block;    
 }
 
@@ -128,6 +129,12 @@ section h2, p {
 section .container {
     display: block;
     justify-content:space-between;
+}
+
+section .produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section h2 {
@@ -196,18 +203,24 @@ header .container {
 
 @media screen and (min-width: 768px ) and (max-width: 1023px) {
 
-    .container{
-        max-width: 90%;
-    }
+.container{
+    max-width: 90%;
+}
 
-    .container p {
-        font-size: 1.5em;
-    }
+.container p {
+    font-size: 1.5em;
+}
 
-    .itens {
-        grid-template-columns: repeat(2, 49%);
-    }
+.itens {
+    grid-template-columns: repeat(2, 49%);
+}
 
+    
+section .produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
     
 
