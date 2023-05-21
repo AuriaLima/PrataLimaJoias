@@ -133,9 +133,9 @@ section .container {
 }
 
 .main-img {
-    height: 150px;
-    width: 200px;
-    margin-top: 20px;
+    height: 180px;
+    width: 250px;
+    margin-top: 10px;
     padding: 16px 0;
 }
 
@@ -219,9 +219,9 @@ section .container {
 }
 
 .main-img {
-    height: 150px;
-    width: 200px;
-    margin-top: 20px;
+    height: 180px;
+    width: 250px;
+    margin-top: 10px;
     padding: 16px 0;
 }
 
